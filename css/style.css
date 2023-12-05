@@ -95,3 +95,37 @@ main {
     padding: 0.8rem;
     text-align: center;
 }
+
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    margin: auto;
+    color: #333;
+}
+
+footer h3 {
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+/* screen sizes 500px and up (will kick it's 500px or above) */
+@media(min-width: 500px){
+    #landing {
+        display: flex;
+        height: 100%;
+    }
+
+    #landing-text {
+        height: 100vh;
+    }
+
+    #landing-image {
+        height: 100vh;
+    }
+}
+/* screen sizes 700px and up */
+@media(min-width: 700px){
+    .btn {
+        padding: 1rem 3rem;
+    }
+}
